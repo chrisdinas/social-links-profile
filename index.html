@@ -1,34 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Social links profile</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main
+      class="h-dvh bg-[var(--offBlack)] flex flex-col justify-center items-center"
+    >
+      <div
+        class="bg-[var(--darkGrey)] w-[335px] flex flex-col items-center rounded-xl"
+      >
+        <figure class="mt-8">
+          <img
+            src="assets/images/avatar-jessica.jpeg"
+            alt=""
+            height="65px"
+            width="75px"
+            class="rounded-full"
+          />
+        </figure>
+        <h1 class="text-white font-normal text-xl mt-5">Jessica Randall</h1>
+        <p class="text-primary-color text-xs font-normal mt-1">
+          London, United Kingdom
+        </p>
+        <span class="text-white text-[12px] font-normal mt-5"
+          >"Front-end developer and avid reader."</span
+        >
+        <section
+          class="flex flex-col items-center text-white text-xs font-semibold mt-4"
+        >
+          <div class="mb-3">
+            <a
+              href=""
+              class="bg-[var(--gray)] hover:bg-primary-color hover:text-[var(--offBlack)] inline-block w-[250px] h-[38px] flex items-center justify-center rounded-md"
+              >GitHub</a
+            >
+          </div>
+          <div class="mb-3">
+            <a
+              href=""
+              class="bg-[var(--gray)] hover:bg-primary-color hover:text-[var(--offBlack)] inline-block w-[250px] h-[38px] flex items-center justify-center rounded-md"
+              >Frontend Mentor</a
+            >
+          </div>
+          <div class="mb-3">
+            <a
+              href=""
+              class="bg-[var(--gray)] hover:bg-primary-color hover:text-[var(--offBlack)] inline-block w-[250px] h-[38px] flex items-center justify-center rounded-md"
+              >LinkedIn</a
+            >
+          </div>
+          <div class="mb-3">
+            <a
+              href=""
+              class="bg-[var(--gray)] hover:bg-primary-color hover:text-[var(--offBlack)] inline-block w-[250px] h-[38px] flex items-center justify-center rounded-md"
+              >Twitter</a
+            >
+          </div>
+          <div>
+            <a
+              href=""
+              class="bg-[var(--gray)] hover:bg-primary-color hover:text-[var(--offBlack)] inline-block w-[250px] h-[38px] flex items-center justify-center rounded-md mb-8"
+              >Instagram</a
+            >
+          </div>
+        </section>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/chrisdinas"
+          target="_blank"
+          >Chrisdinas</a
+        >.
+      </div>
+    </main>
+  </body>
 </html>
