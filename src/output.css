@@ -846,8 +846,8 @@ video {
   height: 38px;
 }
 
-.h-dvh {
-  height: 100dvh;
+.h-lvh {
+  height: 100lvh;
 }
 
 .h-screen {
