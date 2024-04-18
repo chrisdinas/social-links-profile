@@ -850,6 +850,10 @@ video {
   height: 100dvh;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-\[250px\] {
   width: 250px;
 }
