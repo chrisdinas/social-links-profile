@@ -15,66 +15,74 @@
     <title>Frontend Mentor | Social links profile</title>
     <link href="./src/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-[var(--offBlack)]">
-    <div class="h-screen flex flex-col justify-center items-center">
-      <div
-        class="bg-[var(--darkGrey)] flex flex-col items-center justify-center px-9 py-12 rounded-lg w-[400px]"
-      >
-        <header class="flex flex-col items-center">
-          <figure>
-            <img
-              src="./assets/images/avatar-jessica.jpeg"
-              alt="Avatar"
-              width="85"
-              height="90"
-              class="rounded-full mb-5"
-            />
-          </figure>
-          <h1 class="text-white text-xl mb-1">Jessica Randall</h1>
-          <span class="text-[var(--primary-color)] text-xs mb-5"
+  <body class="bg-offBlack h-screen flex items-center justify-center">
+    <div
+      class="bg-darkGrey w-[380px] flex flex-col items-center rounded-lg py-12"
+    >
+      <header class="flex flex-col items-center">
+        <figure>
+          <img
+            src="assets/images/avatar-jessica.jpeg"
+            alt="Avatar profile"
+            class="rounded-full w-[100px]"
+          />
+        </figure>
+        <section class="flex flex-col items-center my-6">
+          <h1 class="text-white text-2xl mb-2">Jessica Randall</h1>
+          <span class="text-primary-color text-sm mb-4"
             >London, United Kingdom</span
           >
-          <p class="text-white text-xs mb-5">
+          <p class="text-[14px] text-white">
             "Front-end developer and avid reader."
           </p>
-        </header>
-        <main class="flex flex-col items-center w-full text-white">
+        </section>
+      </header>
+      <main class="flex flex-col items-center w-[300px]">
+        <div>
           <a
             href=""
-            class="bg-[var(--grey)] hover:bg-[var(--primary-color)] hover:text-black text-sm w-full py-3 flex items-center justify-center rounded-md mb-4"
+            class="inline-block w-[300px] flex justify-center items-center h-[40px] text-sm text-white font-semibold bg-grey hover:bg-primary-color hover:text-black rounded-md mb-5"
             >GitHub</a
           >
+        </div>
+        <div>
           <a
             href=""
-            class="bg-[var(--grey)] hover:bg-[var(--primary-color)] hover:text-black text-sm w-full py-3 flex items-center justify-center rounded-md mb-4"
+            class="inline-block w-[300px] flex justify-center items-center h-[40px] text-sm text-white font-semibold bg-grey hover:bg-primary-color hover:text-black rounded-md mb-5"
             >Frontend Mentor</a
           >
+        </div>
+        <div>
           <a
             href=""
-            class="bg-[var(--grey)] hover:bg-[var(--primary-color)] hover:text-black text-sm w-full py-3 flex items-center justify-center rounded-md mb-4"
-            >LinkedIn</a
+            class="inline-block w-[300px] flex justify-center items-center h-[40px] text-sm text-white font-semibold bg-grey hover:bg-primary-color hover:text-black rounded-md mb-5"
+            >Linkedin</a
           >
+        </div>
+        <div>
           <a
             href=""
-            class="bg-[var(--grey)] hover:bg-[var(--primary-color)] hover:text-black text-sm w-full py-3 flex items-center justify-center rounded-md mb-4"
+            class="inline-block w-[300px] flex justify-center items-center h-[40px] text-sm text-white font-semibold bg-grey hover:bg-primary-color hover:text-black rounded-md mb-5"
             >Twitter</a
           >
+        </div>
+        <div>
           <a
             href=""
-            class="bg-[var(--grey)] hover:bg-[var(--primary-color)] hover:text-black text-sm w-full py-3 flex items-center justify-center rounded-md"
+            class="inline-block w-[300px] flex justify-center items-center h-[40px] text-sm text-white font-semibold bg-grey hover:bg-primary-color hover:text-black rounded-md"
             >Instagram</a
           >
-        </main>
-        <footer class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by
-          <a href="https://github.com/chrisdinas/social-links-profile"
-            >Chrisdinas</a
-          >.
-        </footer>
-      </div>
+        </div>
+      </main>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/chrisdinas/social-links-profile"
+          >Chrisdinas</a
+        >.
+      </footer>
     </div>
   </body>
 </html>
