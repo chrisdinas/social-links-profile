@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/Screenshot%202024-04-18%20at%2013-05-47%20Frontend%20Mentor%20Social%20links%20profile.png)
-![](./design/Screenshot%202024-04-18%20at%2013-06-30%20Frontend%20Mentor%20Social%20links%20profile.png)
+![](./design/Screenshot%202024-04-20%20at%2021-15-32%20Frontend%20Mentor%20Social%20links%20profile.png)
+![](./design/Screenshot%202024-04-20%20at%2021-15-47%20Frontend%20Mentor%20Social%20links%20profile.png)
 
 ### Links
 
