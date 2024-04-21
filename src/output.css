@@ -724,12 +724,12 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .mt-2 {
@@ -835,24 +835,12 @@ video {
   display: none;
 }
 
+.h-\[45px\] {
+  height: 45px;
+}
+
 .h-screen {
   height: 100vh;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-\[50px\] {
-  height: 50px;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
-.w-\[100px\] {
-  width: 100px;
 }
 
 .w-\[300px\] {
@@ -861,6 +849,10 @@ video {
 
 .w-\[380px\] {
   width: 380px;
+}
+
+.w-\[90px\] {
+  width: 90px;
 }
 
 .w-\[this-is\\\\\] {
@@ -1713,12 +1705,16 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-b {
@@ -1854,12 +1850,12 @@ video {
   background-color: var(--darkGrey);
 }
 
-.bg-offBlack {
-  background-color: var(--offBlack);
-}
-
 .bg-grey {
   background-color: var(--grey);
+}
+
+.bg-offBlack {
+  background-color: var(--offBlack);
 }
 
 .decoration-slice {
@@ -1977,11 +1973,6 @@ video {
   padding-bottom: 3rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -2038,10 +2029,6 @@ video {
   vertical-align: super;
 }
 
-.font-\[\'Inter\'\] {
-  font-family: 'Inter';
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2054,11 +2041,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -2532,6 +2514,10 @@ video {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
 }
 
 .attribution {
