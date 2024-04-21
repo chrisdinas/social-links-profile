@@ -1991,6 +1991,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
 .text-left {
   text-align: left;
 }
